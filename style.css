@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  margin: auto;
+  margin-top: 90px;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.text-content h1 {
+  position: relative;
+  font-size: 4rem;
+  width: 330px;
+  margin-bottom: 10px;
+}
+
+.text-content h1::before {
+  content: url(./img/detalhe\ 1.svg);
+  position: absolute;
+  z-index: -1;
+  margin-top: -35px;
+  margin-left: -45px;
+}
+
+.text-content h3 {
+  position: relative;
+  font-weight: 300;
+  color: #444;
+}
+
+.text-content h3::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #2bda1c;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.img-perfil img {
+  max-width: 400px;
+}
+
+.sobre-perfil {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+.sobre-perfil h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.sobre-perfil h3 span {
+  position: relative;
+  left: 18px;
+}
+
+.sobre-perfil h3::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #2bda1c;
+  border-radius: 50%;
+  margin-top: 9px;
+  margin-right: 12px;
+}
+
+.obj {
+  margin-top: 18px;
+  font-size: 20px;
+}
